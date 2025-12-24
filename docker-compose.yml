@@ -22,8 +22,7 @@ services:
     networks:
       - homeassistant-mcp-network
     env_file:
-      - .env
-      - .env.${NODE_ENV:-production}
+      - stack.env
 
 volumes:
   logs:
