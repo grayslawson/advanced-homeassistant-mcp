@@ -22,7 +22,7 @@ services:
     networks:
       - homeassistant-mcp-network
     env_file:
-      - stack.env
+      - .env
 
 volumes:
   logs:
